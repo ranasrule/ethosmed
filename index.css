@@ -17,7 +17,7 @@ body
 #intro
 {
    background-color: transparent;
-   background-image: url(images/radiologie.jpg);
+   background-image: url(/radiologie.jpg);
    background-repeat: no-repeat;
    background-position: center center;
    background-size: cover;
