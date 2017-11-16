@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ethosmed - PACS, Medical Record Automation, Telemedicine, 360 Patient Analytics</title>
+<meta name="description" content="PACS, Medical Record Automation, Telemedicine, 360 Patient Analytics">
+<meta name="keywords" content="PACS,Healthcare,Patient 360 Analytics,Telemedicine">
+<meta name="author" content="ethosmed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="EthosMed.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("a[href*='#intro']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#intro').offset().top }, 600, 'easeOutQuad');
+   });
+});
+</script>
+<!-- Insert Google Analytics code here --><script>
+$(document).ready(function()
+{
+   // move arrow outside the layer container
+   $('#wb_down-arrow').appendTo('#intro');
+});
+</script>    </head>
+<body>
+<div id="intro" style="position:relative;text-align:center;width:100%;height:100%;float:left;display:block;z-index:20;">
+<div id="intro_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_down-arrow" style="position:absolute;left:460px;top:630px;width:36px;height:36px;text-align:center;z-index:0;">
+<a href="#services"><div id="down-arrow"><i class="fa fa-angle-down">&nbsp;</i></div></a></div>
+
+<div id="wb_Image1" style="position:absolute;left:142px;top:276px;width:686px;height:140px;z-index:2;">
+<img src="images/EthosMed Logo.png" id="Image1" alt=""></div>
+</div>
+</div>
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1">
+<div class="row">
+<div class="col-1">
+<div id="wb_Heading7" style="display:inline-block;width:100%;text-align:center;z-index:3;">
+<h1 id="Heading7">What We Do</h1>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2">
+<div class="row">
+<div class="col-1">
+<div id="wb_FontAwesomeIcon4" style="display:inline-block;width:106px;height:106px;text-align:center;z-index:4;">
+<a href="#top" title="Top"><div id="FontAwesomeIcon4"><i class="fa fa-cloud-upload">&nbsp;</i></div></a>
+</div>
+<div id="wb_Heading1" style="display:inline-block;width:100%;text-align:center;z-index:5;">
+<h3 id="Heading1">PACS Solutions</h3>
+</div>
+<hr id="Line1" style="display:block;width:100%;z-index:6;">
+<div id="wb_Text8">
+<span style="color:#FFFFFF;font-family:Arial;font-size:13px;">Imaging centers today are finding that image exchange via VPN, FTP, and CD is draining their efficiency and decreasing their ability to compete with companies that have already transformed their model for image exchange. At EthosMed, consolidate and share images in real time and exchange images with providers seamlessly. The results: faster turnaround of studies, a reduction of manual effort for you and providers, and a better overall experience for patients.</span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_FontAwesomeIcon7" style="display:inline-block;width:106px;height:106px;text-align:center;z-index:8;">
+<a href="#top" title="Top"><div id="FontAwesomeIcon7"><i class="fa fa-users">&nbsp;</i></div></a>
+</div>
+<div id="wb_Heading2" style="display:inline-block;width:100%;text-align:center;z-index:9;">
+<h3 id="Heading2">Medical Records Automation</h3>
+</div>
+<hr id="Line2" style="display:block;width:100%;z-index:10;">
+<div id="wb_Text10">
+<span style="color:#FFFFFF;font-family:Arial;font-size:13px;">Automated medical record, otherwise known as an electronic medical record, are a set of health information about a person that is stored on a computer versus in a filing cabinet. Automated medical record systems provide the health care industry with more efficient and private storage of medical records. The security designs of our EMR systems make them as safe, or in some cases, safer than paper-based medical files.</span>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_FontAwesomeIcon8" style="display:inline-block;width:106px;height:106px;text-align:center;z-index:12;">
+<a href="#top" title="Top"><div id="FontAwesomeIcon8"><i class="fa fa-exchange">&nbsp;</i></div></a>
+</div>
+<div id="wb_Heading3" style="display:inline-block;width:100%;text-align:center;z-index:13;">
+<h3 id="Heading3">Telemedicine</h3>
+</div>
+<hr id="Line3" style="display:block;width:100%;z-index:14;">
+<div id="wb_Text11">
+<span style="color:#FFFFFF;font-family:Arial;font-size:13px;">Telemedicine is a broad term encompassing all methods where the doctor-patient interaction is not on-site and some form of telecommunication is used. Also called telehealth, online health, or e-health, telemedicine has made long strides since its inception.Our solutions bridge the imbalance between the demand and availability of diagnostic services.</span><span style="color:#000000;font-family:Arial;font-size:8px;"><br></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid3">
+<div id="LayoutGrid3">
+<div class="row">
+<div class="col-1">
+</div>
+<div class="col-2">
+<div id="wb_Heading9" style="display:inline-block;width:100%;text-align:center;z-index:16;">
+<h2 id="Heading9">Contact Us</h2>
+</div>
+
+            <form id='contact' action='/success' method='post'><input type='hidden' name='form-name' value='contact' />
+                    
+                    <fieldset>
+                        <input placeholder="Your name" type="text" name="fullname" tabindex="1" required autofocus>
+                    </fieldset>
+                    <fieldset>
+                        <input placeholder="Your Email Address" type="email" name="emailaddress" tabindex="2" required>
+                    </fieldset>
+                    <fieldset>
+                        <textarea placeholder="Type your Message Here...." tabindex="3" name="message" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <button type="submit">Send</button>
+                    </fieldset>
+                </form>
+
+</div>
+<div class="col-3">
+
+</div>
+</div>
+</div>
+</div>
+<div id="wb_Footer">
+<div id="Footer">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text9">
+<span style="color:#000000;font-family:Arial;font-size:13px;"><br></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;">Copyright © 2017 EthosMED, LLC<br><strong>info@ethosmed.com</strong></span><span style="color:#000000;font-family:Arial;font-size:13px;"><br></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
