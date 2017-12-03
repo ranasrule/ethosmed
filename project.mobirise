@@ -622,6 +622,9 @@
                   "-webkit-flex-basis": "100%"
                 }
               }
+            },
+            ".mbr-section-title": {
+              "color": "#972424"
             }
           },
           "_name": "features12",
